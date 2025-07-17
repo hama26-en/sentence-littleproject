@@ -8,7 +8,7 @@ for char in sentence:
     char_count += 1
     if char == ' ':
         word_count += 1
-    if char.lower() in 'aeiou':
+    if char in 'aeiou' and 'AEIOU':
         vowel_count += 1
 
 char_count -= 1
